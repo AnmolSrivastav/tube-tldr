@@ -1,0 +1,4 @@
+youtube-transcript-api
+streamlit
+python-dotenv
+huggingface_hub
