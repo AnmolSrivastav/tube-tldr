@@ -62,7 +62,7 @@ python -m streamlit run helper.py
 ### Step 7 — Use the app
 Open your browser, paste any YouTube URL, and click the button.
 
----
+
 
 ## Project Structure
 
@@ -71,11 +71,11 @@ tube-tldr/
 │
 ├── helper.py          # Main app — all the logic and UI lives here
 ├── requirements.txt   # All Python packages needed to run the app
-├── readme.txt         # You are reading this right now
+├── readme.md          # You are reading this right now
 └── .env               # YOUR secret token (never shared, never uploaded)
 ```
 
----
+
 
 ## Security Note
 
@@ -84,7 +84,7 @@ It is listed in .gitignore and will NEVER be uploaded to GitHub.
 Anyone who clones this repo must create their own .env file 
 with their own Hugging Face token.
 
----
+
 
 ## Why I Built This
 
@@ -95,9 +95,3 @@ This app solves a real problem: saving time by letting AI summarize
 long YouTube videos instantly. It combines transcript extraction, 
 LLM inference, and a clean web UI — all in under 100 lines of Python.
 
----
-
-##  Author
-
-Anmol Srivastava
-Powered by Hugging Face and YouTube Transcript API
