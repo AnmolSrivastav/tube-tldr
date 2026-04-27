@@ -66,12 +66,14 @@ Open your browser, paste any YouTube URL, and click the button.
 
 ## Project Structure
 
+```
 tube-tldr/
 │
 ├── helper.py          # Main app — all the logic and UI lives here
 ├── requirements.txt   # All Python packages needed to run the app
 ├── readme.txt         # You are reading this right now
 └── .env               # YOUR secret token (never shared, never uploaded)
+```
 
 ---
 
